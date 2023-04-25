@@ -1,3 +1,4 @@
+
 * {
     font-family: Noto Sans;
     padding: 0;
@@ -21,7 +22,6 @@ section {
     overflow: hidden;
     width: 100vw;
 }
-
 
 h1 {
     font-size:2rem;
@@ -91,164 +91,133 @@ h1 {
     width: 80vw;
 }
 
-.section2 button {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size:1.5rem;
-    right: 10%;
-    top:52%;
-    width:15vw;
-    height:10vh;
-    position: absolute;
-    background: white; 
-    
-}
-
-.section2 button a {
-    color: #000;
-    text-decoration: none;
-}
-
-.section2 button a:focus{
-    color:dimgrey;
-}
-
-.section2 button:hover {
-    background-color: coral;
-}
-
-
-.section3 {
-    background-color: #FFEDD7;
-    padding: 30 0 0 0px;
-    position: relative;
-    overflow: hidden;
-    height: 80%;
-    display: block;
-}
-
-.section3 h1 {
-    font-size: 3rem;
+.section3 h1{
     text-align: center;
-    margin: 20px 0;
+    margin: 3rem;
 }
 
-.section3 a img {
-    height: 50%;
-    width: 50%;
-    margin: 0 25%;
+img {
+    width:20%;
+    height:100%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
     
+
 }
 
-.section4 {
-    background-color: #FFEDD7;
-    padding: 30 0 0 0px;
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    margin-bottom: 0px;
-    
-}
-.section4 h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin: 20px 0;
-}
-
-.section4 img {
-    width: 350px;
-    height: 480px;
-    margin-right: 100px;
-    margin-left: 300px;
+.kay img {
     float: left;
-    overflow: hidden;
-    background-size: cover;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+        
 }
 
-.section4 p {
-    margin-right: 300px;
-    margin-left: 100px
-    width:100vw;
-    height: 100vh;
-    font-size: 1.2rem;
-    font-weight: bold;
-    
+.kay p {
+    padding-top: 1rem;
+    padding-right: 10rem;
 }
 
-.section5 {
-    background-image: url(Resources/stone.jpg);
-    background-size: cover;
-    height: 30vh;
-    padding: 40 0 0 40px;
-    position: relative;
-    overflow: hidden;
-    margin-top: 0;
+.gyj img {
+    float: right;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.gyj p {
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+
+.section4 h1 {
+    text-align: center;
+    margin: 3rem;
+}
+
+.xqh img {
+    float: left;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.xqh p {
+    padding-top: 1rem;
+    padding-right: 10rem;
+}
+
+.wy img {
+    float: right;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.wy p {
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+
+.francis img {
+    float: left;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.francis p {
+    padding-top: 1rem;
+    padding-right: 10rem;
 }
 
 .section5 h1 {
-    text-align: left;
-    padding: 0 10rem 0 10rem;
-    margin: 20px 0;
-}
-
-.section5 button{
-    font-weight: bold;
-    font-size:20px;
-    bottom:10%;
-    left:70%;
-    width:180px;
-    height:50px;
-    position: absolute;
-    background: white; 
-}
-
-.section5 button:hover {
-    background-color: coral;
-}
-
-.section6 {
-    background-color: #FFEDD7;
-    padding: 30 0 0 0px;
-    position: static;
-    overflow: hidden;
-}
-
-.section6 h1 {
     text-align: center;
-    font-size: 3rem;
+    margin: 3rem;
 }
 
-input[type="email"],
-input[type="tel"],
-input[type="text"] {
-    display: block;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10 10 10 50px;
-    border-radius: 4px;
-    width: 50%;
-    height: 50px;
+.partner div {
+    display: inline-block;
+    margin: 0 40px;
+}
+.partner {
     text-align: center;
-    
-    
+    justify-content: space-between;
 }
 
-.section6 button {
-    font-weight: bold;
-    font-size:1.5rem;
-    height: 50px;
-    width: 50%;
-    display: block;
-    margin:0 auto;      
+.ptn1 {
+    background-image: url(Resources/Outchinalogo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;   
 }
-.section6 button:hover{
-    background-color: coral;
+.ptn2 {
+    background-image: url(Resources/Upwomxn%20logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;  
 }
+
+.ptn3 {
+    background-image: url(Resources/CRN-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;  
+}
+
 
 footer {
     width: 100%;
+    border-top: 1px solid;
+    border-color: black;
     margin-top: 20px;
     
 }
@@ -282,18 +251,4 @@ footer {
     text-align: center;
 }
 
-fieldset{
-    padding: 20px;
-    margin: 20px 0;
-    border: 3px solid #222;
-}
-
-legend {
-    padding:10px;
-    font-size: 3rem;
-    font-family: Noto sans;
-    letter-spacing: 0.1em;
-    text-align: center;
-    
-}
 
