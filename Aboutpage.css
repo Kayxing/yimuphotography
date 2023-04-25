@@ -20,18 +20,18 @@ section {
     padding: 0;
     margin: auto;
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
 }
 
 h1 {
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 20 0 20 0px;
 }
 .section1 h1 {
     text-align: center;
     display: block;
-    width: 50vm;
+    width: 50vw;
     height: 15vh;
     margin: 0;
 }
