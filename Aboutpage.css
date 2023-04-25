@@ -98,13 +98,11 @@ h1 {
 
 img {
     width:20%;
-    height:100%;
-    overflow:hidden;
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    background-size:cover;
+    height:100%;
+    overflow:hidden;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
     
 
 }
