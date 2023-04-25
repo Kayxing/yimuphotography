@@ -9,6 +9,11 @@ html{
     background-color: #FFEDD7;
 }
 
+img {
+    width: 30%;
+    height: 40%;
+}
+
 div {
     display: block;
     width: 100vw;
