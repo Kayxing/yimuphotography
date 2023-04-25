@@ -35,6 +35,10 @@ h1 {
     display: inline-flex;
     overflow: hidden;
 }
+
+.section1 h1 {
+    float: left;
+}
 .top_menubar nav{
     display: flex;
     width: 84vw;
