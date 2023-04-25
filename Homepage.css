@@ -1,0 +1,299 @@
+* {
+    font-family: Noto Sans;
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    background-color: #FFEDD7;
+}
+
+div {
+    display: block;
+    width: 100vw;
+    overflow: hidden;
+    margin: auto;
+}
+
+section {
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+    width: 100vw;
+}
+
+
+h1 {
+    font-size:2rem;
+    font-weight: bold;
+    margin: 20 0 20 0px;
+}
+.section1 h1 {
+    text-align: center;
+    display: block;
+    width: 50vm;
+    height: 15vh;
+    margin: 0;
+}
+.section1 {
+    background-color: white;
+    width: 100vw;
+    height: 15vh;
+    display: inline-flex;
+    overflow: hidden;
+}
+.top_menubar nav{
+    display: flex;
+    width: 84vw;
+    margin: 0 0 0 35rem;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    place-items: center;
+    
+}
+
+.top_menubar nav ul li {
+    display: inline-block;
+    font-size: 2.2rem;
+    margin: 10 20px;
+    padding: 0 3rem;
+}
+.top_menubar nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.top_menubar nav ul li a:hover{
+    color: crimson; 
+}
+
+.section2 {
+    background-image: url(Resources/background.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.section2 h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    padding: 3rem 3rem 0 3rem;
+}
+
+.section2 p{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 3rem 3rem 3rem 3rem;
+    width: 80vw;
+}
+
+.section2 button {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size:1.5rem;
+    right: 10%;
+    top:52%;
+    width:15vw;
+    height:10vh;
+    position: absolute;
+    background: white; 
+    
+}
+
+.section2 button a {
+    color: #000;
+    text-decoration: none;
+}
+
+.section2 button a:focus{
+    color:dimgrey;
+}
+
+.section2 button:hover {
+    background-color: coral;
+}
+
+
+.section3 {
+    background-color: #FFEDD7;
+    padding: 30 0 0 0px;
+    position: relative;
+    overflow: hidden;
+    height: 80%;
+    display: block;
+}
+
+.section3 h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section3 a img {
+    height: 50%;
+    width: 50%;
+    margin: 0 25%;
+    
+}
+
+.section4 {
+    background-color: #FFEDD7;
+    padding: 30 0 0 0px;
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    margin-bottom: 0px;
+    
+}
+.section4 h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section4 img {
+    width: 350px;
+    height: 480px;
+    margin-right: 100px;
+    margin-left: 300px;
+    float: left;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.section4 p {
+    margin-right: 300px;
+    margin-left: 100px
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.section5 {
+    background-image: url(Resources/stone.jpg);
+    background-size: cover;
+    height: 30vh;
+    padding: 40 0 0 40px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.section5 h1 {
+    text-align: left;
+    padding: 0 10rem 0 10rem;
+    margin: 20px 0;
+}
+
+.section5 button{
+    font-weight: bold;
+    font-size:20px;
+    bottom:10%;
+    left:70%;
+    width:180px;
+    height:50px;
+    position: absolute;
+    background: white; 
+}
+
+.section5 button:hover {
+    background-color: coral;
+}
+
+.section6 {
+    background-color: #FFEDD7;
+    padding: 30 0 0 0px;
+    position: static;
+    overflow: hidden;
+}
+
+.section6 h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="text"] {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10 10 10 50px;
+    border-radius: 4px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    
+    
+}
+
+.section6 button {
+    font-weight: bold;
+    font-size:1.5rem;
+    height: 50px;
+    width: 50%;
+    display: block;
+    margin:0 auto;      
+}
+.section6 button:hover{
+    background-color: coral;
+}
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.footbar ul {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.footbar ul li {
+    display:inline-block;
+    font-size: 1rem;
+    margin:0px 50px;
+}
+
+.footbar ul li a {
+    font-size: 1rem;
+    color: #000;
+    
+}
+
+.footbar ul li a:hover{
+    color: crimson; 
+}
+.foottext p {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.footcpnname {
+    text-align: center;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px 0;
+    border: 3px solid #222;
+}
+
+legend {
+    padding:10px;
+    font-size: 3rem;
+    font-family: Noto sans;
+    letter-spacing: 0.1em;
+    text-align: center;
+    
+}
+
